@@ -1,5 +1,7 @@
 # Screenshots:  
 <br>
-<img src="https://user-images.githubusercontent.com/97472180/167963804-f04a5777-c896-4457-80c8-3ecd5f43b6dd.PNG" alt="Start" width="450" height="400"/>
+<img src="https://user-images.githubusercontent.com/97472180/167965367-0a9189a3-140d-474e-bba9-9b7386df4cf9.PNG" alt="Start" width="480" height="270"/>
 <br>
-<img src="https://user-images.githubusercontent.com/97472180/167963800-4f6b456b-ad11-423e-b977-4a36243c04f7.PNG" alt="Game-Over" width="450" height="400"/>
+<img src="https://user-images.githubusercontent.com/97472180/167965364-e6b1c02e-f81c-4b68-a8c1-c83902e2b21c.PNG" alt="Level-7" width="480" height="270"/>
+<br>
+<img src="https://user-images.githubusercontent.com/97472180/167965362-8fec02b4-a2c5-459a-919e-51f85dddb76f.PNG" alt="Game-Over" width="480" height="270"/>
