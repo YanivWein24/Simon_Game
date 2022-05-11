@@ -53,7 +53,8 @@ function checkAnswer(currentLevel) {
         setTimeout(function () {
             $("body").removeClass("game-over");
         }, 200);
-        startOver();
+        // startOver();
+        document.location.reload();
     }
 }
 
