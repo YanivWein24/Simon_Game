@@ -20,7 +20,7 @@ $(document).bind("keypress click", function () {
             button.classList.remove("cantClick");
         });
     }
-    // start the game when pressing on the keyboard
+    // start the game when pressing on the keyboard or touching the screen
 });
 
 
@@ -48,13 +48,11 @@ function checkAnswer(currentLevel) {
     } else {
         playSound("wrong");
         $("body").addClass("game-over");
-        $("#level-title").text("Game Over, Press Any Key to Restart");
+        $("#level-title").text("Game Over. Restarting...");
 
         setTimeout(function () {
-            $("body").removeClass("game-over");
-        }, 200);
-        // startOver();
-        document.location.reload();
+            document.location.reload();
+        }, 3000);
     }
 }
 
@@ -86,11 +84,4 @@ function animatePress(currentColor) {
 function playSound(name) {
     var audio = new Audio("sounds/" + name + ".mp3");
     audio.play();
-}
-
-function startOver() {
-    sleep(1000);
-    level = 0;
-    gamePattern = [];
-    gameOn = false;
 }
