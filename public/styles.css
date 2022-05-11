@@ -58,22 +58,3 @@ p {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
-
-
-@media (max-width: 1200px) {
-  .container {
-    width: 80%;
-  }
-
-  .btn {
-    width: 150px;
-    height: 150px;
-    border: 7px solid black;
-    margin: 20px;
-  }
-
-  #level-title {
-    font-size: 2rem;
-    margin: 6%
-  }
-}
