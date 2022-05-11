@@ -1,0 +1,24 @@
+{
+  "name": "simon-game-jquery",
+  "version": "1.0.0",
+  "description": "* Download the code or clone it to your local repository.\r * Open `index.html` on your local browser.",
+  "main": "game.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YanivWein24/Simon_Game.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YanivWein24/Simon_Game/issues"
+  },
+  "homepage": "https://github.com/YanivWein24/Simon_Game#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "https": "^1.0.0"
+  }
+}
