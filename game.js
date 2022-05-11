@@ -1,9 +1,14 @@
-var buttonColors = ["red", "blue", "green", "yellow"];
-var gamePattern = [];
-var userClickedPattern = [];
-var gameOn = false;
-var level = 0;
+const buttonColors = ["red", "blue", "green", "yellow"];
+let gamePattern = [];
+let userClickedPattern = [];
+let gameOn = false;
+let level = 0;
 
+const year = new Date().getFullYear();
+
+$(document).ready(function () {
+    $(".footer").text("copyrightⒸ" + ' ' + year + ' ' + "Yaniv Weinshtein");
+});
 
 $(document).bind("keypress click", function () {
     if (!gameOn) {
@@ -79,6 +84,7 @@ function playSound(name) {
 }
 
 function startOver() {
+    sleep(1000);
     level = 0;
     gamePattern = [];
     gameOn = false;
