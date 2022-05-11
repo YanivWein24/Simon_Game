@@ -15,6 +15,10 @@ $(document).bind("keypress click", function () {
         $("#level-title").text("Level " + level);
         nextSequence();
         gameOn = true;
+        const buttons = document.querySelectorAll(".cantClick")
+        buttons.forEach(function (button) {
+            button.classList.remove("cantClick");
+        });
     }
     // start the game when pressing on the keyboard
 });

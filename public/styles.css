@@ -59,6 +59,10 @@ p {
   background-color: grey;
 }
 
+.cantClick {
+  pointer-events: none
+}
+
 @media (max-width: 1200px) {
   .container {
     width: 80%;
