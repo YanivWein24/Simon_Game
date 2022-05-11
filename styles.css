@@ -80,6 +80,10 @@ p {
 
 
 @media (max-width: 600px) {
+  p {
+    margin-top: 15rem;
+  }
+
   .btn {
     width: 120px;
     height: 120px;
@@ -89,6 +93,26 @@ p {
 
   #level-title {
     font-size: 1.5rem;
+    line-height: 1.2;
+    margin: 7%;
+  }
+}
+
+
+@media (max-width: 380px) {
+  p {
+    margin-top: 15rem;
+  }
+
+  .btn {
+    width: 110px;
+    height: 110px;
+    border: 5px solid black;
+    margin: 6px;
+  }
+
+  #level-title {
+    font-size: 1.3rem;
     line-height: 1.2;
     margin: 7%;
   }
