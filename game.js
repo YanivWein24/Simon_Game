@@ -7,7 +7,7 @@ let level = 0;
 const year = new Date().getFullYear();
 
 $(document).ready(function () {
-    $(".footer").text("copyrightⒸ" + ' ' + year + ' ' + "Yaniv Weinshtein");
+    $(".footer").text("Copyright Ⓒ" + ' ' + year + ' ' + "Yaniv Weinshtein");
 });
 
 $(document).bind("keypress click", function () {
