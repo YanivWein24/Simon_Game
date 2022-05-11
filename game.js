@@ -5,7 +5,7 @@ var gameOn = false;
 var level = 0;
 
 
-$(document).keypress(function () {
+$(document).bind("keypress click", function () {
     if (!gameOn) {
         $("#level-title").text("Level " + level);
         nextSequence();
